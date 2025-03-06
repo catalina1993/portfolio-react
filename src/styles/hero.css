@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-  max-width: 90rem; /* Increased width for better layout */
+  max-width: 90rem; 
   margin: 0 auto;
   padding: 4.8rem 2rem 9.6rem 2rem;
   display: grid;
@@ -23,7 +23,7 @@
 }
 
 .hero-text p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #c7c7c7;
   margin-bottom: 1rem;
 }
@@ -75,7 +75,7 @@
   filter: brightness(1.2);
 }
 
-/* 🔹 RESPONSIVE DESIGN */
+/* 🔹 Large Screens*/
 
 @media (max-width: 84em) {
   .hero {
