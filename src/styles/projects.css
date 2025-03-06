@@ -1,0 +1,200 @@
+/* Projects Section */
+.projects {
+  padding: 5rem 4rem;
+  text-align: center;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.projects-heading {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.projects-description {
+  font-size: 1.6rem;
+  color: #c7c7c7;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+/* Project Card */
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 90rem;
+  margin: 2rem auto;
+  background-color: #161616;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-image {
+  flex: 1;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Project Details - Left Align Fix */
+.project-details {
+  text-align: left;
+  flex: 1;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.project-description {
+  font-size: 1.4rem;
+  color: #c7c7c7;
+  text-align: left;
+}
+
+.project-info {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #c7c7c7;
+  text-align: left;
+}
+
+.info-label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  padding: 0.4rem 0;
+}
+
+/* Project Links */
+.project-links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.project-link {
+  color: #fa83de;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.project-link:hover {
+  color: #ff4081;
+  text-decoration: underline;
+}
+
+/* GitHub Icon */
+.github-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-in-out, fill 0.3s ease-in-out;
+  fill: currentColor;
+}
+
+.project-link:hover .github-icon {
+  transform: scale(1.1);
+}
+
+/* 🔹 RESPONSIVE DESIGN */
+/* Tablets (Below 900px) */
+@media (max-width: 75em) {
+
+.projects {
+  padding: 3rem 2rem;
+}
+
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .projects-heading {
+    font-size: 3rem;
+  }
+
+  .project-details {
+    width: 100%;
+  }
+
+  .project-title,
+  .project-description,
+  .project-info {
+    text-align: left;
+  }
+
+  .project-links {
+    justify-content: flex-start;
+  }
+}
+
+/* Mobile (Below 600px) */
+@media (max-width: 600px) {
+.projects {
+  padding: 3rem 2rem;
+}
+
+  .projects-heading {
+    font-size: 2.4rem;
+  }
+
+  .projects-description {
+    font-size: 1.4rem;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+  .project-title {
+    font-size: 1.8rem;
+  }
+
+  .project-description {
+    font-size: 1.3rem;
+  }
+
+  .project-info {
+    font-size: 1.1rem;
+  }
+
+  .project-link {
+    font-size: 1.2rem;
+    justify-content: center;
+  }
+
+  .github-icon {
+    width: 18px;
+    height: 18px;
+  }
+}

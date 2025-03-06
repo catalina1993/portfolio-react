@@ -1,0 +1,80 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #555;
+  background-color: #0a0a0a;
+  line-height: 1.5;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  color: #fff;
+}
+
+h1 {
+  font-size: 5.2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background-color: #a30a7f;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8c006a;
+  transform: scale(1.05);
+}
+
+/* Buttons & Social Icons */
+.link-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+@media (max-width: 75em) {
+  .link-buttons {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 60em) {
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .link-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+}
