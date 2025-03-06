@@ -10,12 +10,22 @@ const Footer = () => {
         <h3 className="footer-heading">LET’S CONNECT</h3>
         <p>
           Let’s connect{" "}
-          <a href="mailto:catalina.ispas05@gmail.com">
+          <a
+            href="mailto:catalina.ispas05@gmail.com?subject=Let's%20Connect&body=Hi%20Elena,"
+            className="email-link"
+          >
             catalina.ispas05@gmail.com
           </a>
         </p>
         <p>
-          For more info, here’s my <a href="#">resume</a>
+          For more info, here’s my{" "}
+          <a
+            href="https://storage.googleapis.com/uxfolio/63bc66ed7452170003f081a0/ElenaIspasResume_ID7.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            resume
+          </a>
         </p>
         <div className="social-links">
           <a

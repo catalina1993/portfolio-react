@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/svg/logo.svg";
 import "../styles/navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const location = useLocation(); 
+  
   return (
     <header className="header">
       <Link to="/" className="logo">
@@ -14,22 +15,42 @@ const Navbar = () => {
       <nav className={`main-nav ${isOpen ? "open" : ""}`}>
         <ul className="nav-list">
           <li>
-            <Link to="/" className="nav-link active">
+            <Link
+              to="/"
+              className={`nav-link ${
+                location.pathname === "/" ? "active" : ""
+              }`}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="nav-link">
+            <Link
+              to="/about"
+              className={`nav-link ${
+                location.pathname === "/about" ? "active" : ""
+              }`}
+            >
               About
             </Link>
           </li>
           <li>
-            <a href="#" className="nav-link">
+            <a
+              href="https://storage.googleapis.com/uxfolio/63bc66ed7452170003f081a0/ElenaIspasResume_ID7.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >
               Resume
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link">
+            <a
+              href="https://uxfol.io/fd8644f3"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >
               Design Portfolio
             </a>
           </li>

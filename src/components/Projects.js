@@ -7,7 +7,7 @@ import project3 from "../assets/img/project-3.png";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <div className="text-container">
         <h2 className="projects-heading">FEATURED PROJECTS</h2>
         <p className="projects-description">

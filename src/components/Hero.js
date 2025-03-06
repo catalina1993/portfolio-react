@@ -8,12 +8,18 @@ import githubIcon from "../assets/svg/github.svg";
 const Hero = () => {
   const scrollToProjects = (e) => {
     e.preventDefault();
-    const projectSection = document.getElementById("projects");
-    if (projectSection) {
-      projectSection.scrollIntoView({ behavior: "smooth" });
-    } else {
-      console.error("Element with ID 'projects' not found in the DOM.");
-    }
+
+    setTimeout(() => {
+      const projectSection = document.getElementById("projects");
+      if (projectSection) {
+        window.scrollTo({
+          top: projectSection.offsetTop - 50,
+          behavior: "smooth",
+        });
+      } else {
+        console.error("Element with ID 'projects' not found in the DOM.");
+      }
+    }, 100);
   };
 
   return (

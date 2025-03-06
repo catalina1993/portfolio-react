@@ -26,6 +26,11 @@
   border-bottom: 1px solid #fa83de;
 }
 
+.nav-link.active {
+  color: #fa83de; 
+  border-bottom: 2px solid #fa83de;
+}
+
 .menu-btn {
   display: none;
   background: none;
