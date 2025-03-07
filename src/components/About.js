@@ -8,25 +8,26 @@ const About = () => {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            As a Front-End Developer and UI/UX Designer, I blend creativity and
-            technical skills to build user-friendly interfaces and engaging
-            designs. My background in UX design and development allows me to
-            take projects from concept to completion, focusing on accessibility,
-            responsiveness, and usability.
+            Hi there, I’m Elena, a UX/UI Designer and Front-End Developer. My path here
+            wasn’t exactly straightforward—I studied Economics, worked in retail
+            management, and even spent time as a dental assistant. But deep
+            down, I knew I wanted to build things, to solve problems, and to
+            make technology more accessible to people.
           </p>
-          <p>🎯 Current Focus:</p>
+          <p>
+            Discovering UX/UI design was the turning point, and diving into
+            front-end development allowed me to bring my designs to life.
+            creativity with functionality.
+          </p>
+          <p>🎯 What Drives Me:</p>
           <ul>
-            <li>
-              🚀 Building reusable UI component libraries for scalability.
-            </li>
-            <li>
-              🏛 Enhancing workflows for government and enterprise solutions.
-            </li>
-            <li>📚 Mastering modern frameworks like React and CSS.</li>
+            <li> • Designing experiences that make life easier for users.</li>
+            <li> • Learning and implementing modern front-end technologies.</li>
+            <li>• Creating pixel-perfect designs with accessibility in mind.</li>
           </ul>
           <p>
-            When I’m not designing, you’ll find me enjoying video games,
-            capturing moments with photography, longboarding, or indulging in
+            When I’m not designing or coding, I’m usually playing video games,
+            cruising around on my longboard, snapping photos, or getting lost in
             anime and manga.
           </p>
         </div>

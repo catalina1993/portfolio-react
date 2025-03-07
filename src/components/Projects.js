@@ -17,33 +17,33 @@ const Projects = () => {
       </div>
 
       <ProjectCard
-        title="Adventure Time"
-        description="Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time."
-        year="2023"
+        title="NuCamp"
+        description="A B2C web app designed for outdoor enthusiasts to explore and access campsite information."
+        year="2025"
         role="Front-end Developer"
         image={project1}
         liveDemo="#"
-        github="#"
+        github="https://github.com/catalina1993/nucampsite"
       />
 
       <ProjectCard
-        title="Blog site for World News"
-        description="Mastered CSS Grid complexities in building an innovative news homepage."
-        year="2022"
-        role="Front-end Developer"
+        title="Anime Blurred Quest"
+        description="An interactive web game for anime fans to test their knowledge by guessing characters from blurred images and hints."
+        year="2025"
+        role="Designer & Front-end Developer"
         image={project2}
         liveDemo="#"
-        github="#"
+        github="https://github.com/catalina1993/anime-blurred-quest-main"
       />
 
       <ProjectCard
-        title="E-commerce Product Page"
-        description="Successfully crafted an engaging product page featuring a dynamic lightbox gallery."
-        year="2022"
-        role="Front-end Developer"
+        title="SpellFinder"
+        description="A D&D spell search tool designed for players and dungeon masters to easily filter, search, and explore a vast collection of spells."
+        year="2025"
+        role="Designer & Front-end Developer"
         image={project3}
         liveDemo="#"
-        github="#"
+        github="https://github.com/catalina1993/SpellFinder-main"
       />
     </section>
   );

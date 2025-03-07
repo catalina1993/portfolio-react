@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="text-container">
         <h3 className="footer-heading">LET’S CONNECT</h3>
         <p>
-          Let’s connect{" "}
+          Contact me: {" "}
           <a
             href="mailto:catalina.ispas05@gmail.com?subject=Let's%20Connect&body=Hi%20Elena,"
             className="email-link"
