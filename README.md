@@ -1,71 +1,44 @@
-# Getting Started with Create React App
+Elena Ispas – Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 A fully responsive portfolio built with React and custom CSS
 
-## Available Scripts
+Overview
 
-In the project directory, you can run:
+This is my personal portfolio, designed and developed to showcase my work as a Front-End Developer and UI/UX Designer. It was built from scratch using React and custom CSS, without relying on Bootstrap or any UI frameworks. My goal was to create a clean, modern, and fully responsive design that reflects my style and attention to detail.
 
-### `npm start`
+Tech Stack
+	•	React – Built as a Single Page Application (SPA)
+	•	Custom CSS – No Bootstrap, Tailwind, or UI libraries—just handcrafted styles
+	•	React Router – Handles navigation for a seamless user experience
+	•	Netlify – Deployed and hosted for easy access
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Fully responsive across all devices (desktop, tablet, mobile)
+✅ Smooth navigation with React Router
+✅ Clean, minimal, and accessible UI
+✅ Custom animations for an engaging experience
+✅ Project showcase with GitHub and live demo links
 
-### `npm test`
+Challenges & Lessons Learned
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Building this portfolio was an exciting yet challenging experience. Some key struggles I faced:
 
-### `npm run build`
+1️⃣ Custom Styling & Responsiveness – Without Bootstrap or Tailwind, I had to manually fine-tune every layout, ensuring a seamless experience across different screen sizes. Media queries became my best friend.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2️⃣ Dark Mode Contrast & Readability – Since my portfolio has a dark theme, getting the right contrast for text, buttons, and images required a lot of trial and error to maintain both aesthetic appeal and accessibility.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3️⃣ React Router Issues – Handling dynamic routing without a full page refresh and ensuring smooth transitions between pages was tricky at first, but I managed to get it working flawlessly.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4️⃣ Performance Optimization – I had to make sure that my assets (like images) were properly optimized to prevent slow loading times, especially on mobile devices.
 
-### `npm run eject`
+Future Improvements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+💡 Adding light/dark mode toggle
+💡 Enhancing animations for a more interactive experience
+💡 Implementing a contact form with backend functionality
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Live Demo & Repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# portfolio-react
+🌍 Live Site: elena-catalina-ispas.netlify.app
+📂 GitHub Repo: Portfolio Repository
