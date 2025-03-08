@@ -32,7 +32,7 @@ const Projects = () => {
         year="2025"
         role="Designer & Front-end Developer"
         image={project2}
-        liveDemo="#"
+        liveDemo="https://anime-blurred-quest.netlify.app"
         github="https://github.com/catalina1993/anime-blurred-quest-main"
       />
 
