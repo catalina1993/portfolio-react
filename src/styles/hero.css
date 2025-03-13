@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-  max-width: 90rem; 
+  max-width: 90rem;
   margin: 0 auto;
   padding: 4.8rem 2rem 9.6rem 2rem;
   display: grid;
@@ -139,7 +139,7 @@
 }
 
 /* Mobile (Below 600px) */
-@media (max-width: 600px) {
+@media (max-width: 37.5em) {
   .hero {
     padding: 3rem 2rem;
     gap: 2rem;
@@ -177,3 +177,10 @@
     height: 20px;
   }
 }
+
+/* Small Mobile (Below 419px) */
+/* @media (max-width:  26em) {
+  .btn {
+    padding: 1rem 1rem;
+  }
+} */

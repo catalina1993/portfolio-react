@@ -1,6 +1,6 @@
 /* Projects Section */
 .projects {
-  padding: 5rem 4rem;
+  padding: 2rem 4rem;
   text-align: center;
   background-color: #0a0a0a;
   color: white;
@@ -159,7 +159,7 @@
 }
 
 /* Mobile (Below 600px) */
-@media (max-width: 600px) {
+@media (max-width: 37em) {
 .projects {
   padding: 3rem 2rem;
 }
@@ -196,5 +196,13 @@
   .github-icon {
     width: 18px;
     height: 18px;
+  }
+}
+
+/* Small Mobile */
+
+@media (max-width: 26em) {
+  .project-link {
+    font-size: 1rem;
   }
 }

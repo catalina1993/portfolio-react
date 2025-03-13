@@ -40,5 +40,5 @@ Future Improvements
 
 Live Demo & Repository
 
-🌍 Live Site: elena-catalina-ispas.netlify.app
-📂 GitHub Repo: Portfolio Repository
+🌍 Live Site: (https://elena-catalina-ispas.netlify.app)
+📂 GitHub Repo: (https://github.com/catalina1993/portfolio-react)

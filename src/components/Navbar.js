@@ -5,13 +5,18 @@ import "../styles/navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation(); 
-  
+  const location = useLocation();
+
+  const handleMenuClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header className="header">
       <Link to="/" className="logo">
         <img src={logo} alt="Logo" />
       </Link>
+
       <nav className={`main-nav ${isOpen ? "open" : ""}`}>
         <ul className="nav-list">
           <li>
@@ -20,6 +25,7 @@ const Navbar = () => {
               className={`nav-link ${
                 location.pathname === "/" ? "active" : ""
               }`}
+              onClick={handleMenuClick}
             >
               Home
             </Link>
@@ -30,6 +36,7 @@ const Navbar = () => {
               className={`nav-link ${
                 location.pathname === "/about" ? "active" : ""
               }`}
+              onClick={handleMenuClick}
             >
               About
             </Link>
@@ -40,6 +47,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"
+              onClick={handleMenuClick}
             >
               Resume
             </a>
@@ -50,12 +58,14 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"
+              onClick={handleMenuClick}
             >
               Design Portfolio
             </a>
           </li>
         </ul>
       </nav>
+
       <button className="menu-btn" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? "✖" : "☰"}
       </button>

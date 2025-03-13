@@ -22,8 +22,8 @@ const Projects = () => {
         year="2025"
         role="Front-end Developer"
         image={project1}
-        liveDemo="#"
-        github="https://github.com/catalina1993/nucampsite"
+        liveDemo="https://nucampsite-app.netlify.app"
+        github="https://github.com/catalina1993/nucampsite-project"
       />
 
       <ProjectCard
@@ -42,7 +42,7 @@ const Projects = () => {
         year="2025"
         role="Designer & Front-end Developer"
         image={project3}
-        liveDemo="#"
+        liveDemo="https://dnd-spell-finder.netlify.app"
         github="https://github.com/catalina1993/SpellFinder-main"
       />
     </section>

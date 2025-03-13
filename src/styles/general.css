@@ -60,12 +60,16 @@ h3 {
   gap: 1.6rem;
 }
 
+/* Desktop Screen */
+
 @media (max-width: 75em) {
   .link-buttons {
     align-items: center;
     justify-content: center;
   }
 }
+
+/* Tablet Screen */
 
 @media (max-width: 60em) {
   .btn {
@@ -76,5 +80,14 @@ h3 {
     display: flex;
     align-items: center;
     gap: 1.2rem;
+  }
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 26em) {
+  .btn {
+    padding: 1rem 1rem;
   }
 }
