@@ -17,13 +17,13 @@ const Projects = () => {
       </div>
 
       <ProjectCard
-        title="NuCamp"
-        description="A B2C web app designed for outdoor enthusiasts to explore and access campsite information."
+        title="SpellFinder"
+        description="A D&D spell search tool designed for players and dungeon masters to easily filter, search, and explore a vast collection of spells."
         year="2025"
-        role="Front-end Developer"
-        image={project1}
-        liveDemo="https://nucampsite-app.netlify.app"
-        github="https://github.com/catalina1993/nucampsite-project"
+        role="Designer & Front-end Developer"
+        image={project3}
+        liveDemo="https://dnd-spell-finder.netlify.app"
+        github="https://github.com/catalina1993/SpellFinder-main"
       />
 
       <ProjectCard
@@ -37,13 +37,13 @@ const Projects = () => {
       />
 
       <ProjectCard
-        title="SpellFinder"
-        description="A D&D spell search tool designed for players and dungeon masters to easily filter, search, and explore a vast collection of spells."
+        title="NuCamp"
+        description="A B2C web app designed for outdoor enthusiasts to explore and access campsite information."
         year="2025"
-        role="Designer & Front-end Developer"
-        image={project3}
-        liveDemo="https://dnd-spell-finder.netlify.app"
-        github="https://github.com/catalina1993/SpellFinder-main"
+        role="Front-end Developer"
+        image={project1}
+        liveDemo="https://nucampsite-app.netlify.app"
+        github="https://github.com/catalina1993/nucampsite-project"
       />
     </section>
   );
